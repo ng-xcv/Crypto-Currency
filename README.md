@@ -7,6 +7,8 @@ Il s'agit la d'une application de Cryptocurrency app basée sur le design créé
 <img align="left" src="capture/Cryptocurrency2.png" width="120" />
 <img align="left" src="capture/Cryptocurrency3.png" width="120" />
 
+<br />
+
 ## Table de matières
 
 | Code | Projet          | Preview                                                                                                                                                     | Inspiration                                                       | Nombre d'écrans |
