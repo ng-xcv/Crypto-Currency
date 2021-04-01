@@ -2,14 +2,14 @@
 
 Il s'agit la d'une application de Cryptocurrency app basée sur le design créé par David Morgan sur Dribbble. <br />
 
-<img align="left" src="capture/Cryptocurrency1.png" width="120" />
-<img align="left" src="capture/Cryptocurrency1.2.png" width="120" />
-<img align="left" src="capture/Cryptocurrency2.png" width="120" />
-<img align="left" src="capture/Cryptocurrency3.png" width="120" />
+<p align="left" >
+<img src="capture/Cryptocurrency1.png" width="150" />
+<img src="capture/Cryptocurrency1.2.png" width="150" />
+<img src="capture/Cryptocurrency2.png" width="150" />
+<img src="capture/Cryptocurrency3.png" width="150" />
+</p>
 
-<br />
-
-## Table de matières
+<h2> Table de matières </h2>
 
 | Code | Projet          | Preview                                                                                                                                                     | Inspiration                                                       | Nombre d'écrans |
 | ---- | --------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- | --------------- |
