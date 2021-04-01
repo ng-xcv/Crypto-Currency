@@ -1,0 +1,74 @@
+// Navigation
+npm install @react-navigation/native react-native-reanimated react-native-gesture-handler react-native-screens react-native-safe-area-context @react-native-community/masked-view @react-navigation/stack @react-navigation/bottom-tabs
+
+// Splash Screen
+npm i react-native-splash-screen --save
+
+// Gradient
+npm install react-native-linear-gradient --save
+
+// Line Chart
+npm install victory-native --save
+npm install react-native-svg --save
+
+
+
+App icon generator for defirent screen : https://appicon.co/
+
+Installing Splah screen 
+1- Github repo : https://github.com/crazycodeboy/react-native-splash-screen
+2- Install the package : npm i react-native-splash-screen --save
+3- #react-native link 
+4- cd ios && pod install 
+5- Modify AppDelegate.m file 
+    #import "RNSplashScreen.h"  // here
+    [RNSplashScreen show];  // here
+
+============================================================================
+                    Modify LaunchScreen IOS 
+============================================================================
+
+6- Open The xcodeprojectapp
+    * create a new view 
+    * add LaunchScreen to Images.xcassets
+    * modify LaunchScreen.storyboard
+    * add a image view 
+    * Set constraint for the image and change it to launch screnn created 
+    * Build project Cmd + B
+
+
+
+============================================================================
+                    Modify LaunchScreen Android 
+============================================================================
+
+1- Go to android > app > src > main > java > MainActivity.java
+
+2-  Add these lines
+
+    import android.os.Bundle; // here
+    import org.devio.rn.splashscreen.SplashScreen; // here
+    @Override
+        protected void onCreate(Bundle savedInstanceState) {
+            SplashScreen.show(this);  // here
+            super.onCreate(savedInstanceState);
+        }
+
+3- Create a file called launch_screen.xml in app/src/main/res/layout (create the layout-folder if it doesn't exist). 
+The contents of the file should be the following:
+
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/launch_screen" android:scaleType="centerCrop" />
+</RelativeLayout>
+
+4- Install react-native-linear-gradient 
+# yarn add react-native-linear-gradient 
+# npm install react-native-linear-gradient --save
+
+
+CHART
+# npm install victory-native --save
+# npm install react-native-svg --save
