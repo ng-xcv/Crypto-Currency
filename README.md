@@ -1,4 +1,6 @@
-<span style="font-size:24px; font-weight:bold"> CryptoCurrency [React-Native] - <span style="font-size:11px; font-style:italic"> by ng_xcv </span></span>
+<h2 style="font-size:24px; font-weight:bold"> CryptoCurrency [React-Native] </h2>
+
+<a href="http://ngxcv.com" title="Visiter mon site web" target="_blank" ><img align="left" alt="Ahmadou Ngary faye" height="28" src="https://i.ibb.co/JjJ0w2v/brand.png" /></a> <h6><em> by ng_xcv 😁 </em></h6>
 
 Il s'agit la d'une application de Cryptocurrency app basée sur le design créé par David Morgan sur Dribbble. <br />
 
